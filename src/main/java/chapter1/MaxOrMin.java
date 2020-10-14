@@ -13,6 +13,8 @@ public class MaxOrMin {
         System.out.println("1 입력시 최댓값을 , 2 입력시 최솟값을 구합니다.");
         int input = scanner.nextInt();
         inputCase(input);
+
+        scanner.close();
     }
 
     private static void inputCase(int input) {
