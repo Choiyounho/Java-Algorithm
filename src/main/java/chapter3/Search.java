@@ -1,15 +1,19 @@
 package chapter3;
 
+import chapter1.MaxOrMin;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class Search {
+public class Search{
 
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
         int[] a = {5, 2, 3, 7, 5, 7};
-        System.out.println("몇번째 인덱스를 구하고 싶으신가요?");
+        System.out.println("배열 : " + Arrays.toString(a));
+        System.out.println("몇번째 인덱스에 *을 찍고 싶으신가요?");
         while (true) {
             int arrLength = scanner.nextInt();
             if (arrLength < 0 || arrLength > 5) {
@@ -25,4 +29,5 @@ public class Search {
         }
 
     }
+
 }
