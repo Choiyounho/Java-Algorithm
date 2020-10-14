@@ -2,7 +2,7 @@ package chapter2;
 
 import java.util.Arrays;
 
-public class ArraysTest {
+public class ArrayTest {
 
     public static void main(String[] args) {
 
