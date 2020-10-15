@@ -1,7 +1,5 @@
 package chapter3;
 
-import chapter1.MaxOrMin;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
