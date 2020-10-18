@@ -30,7 +30,6 @@ public class ArrayTest {
         reverseArr(d, e);
 
         System.out.println(Arrays.toString(d));
-
     }
 
     private static void reverseArr(int[] c, int[] d) {

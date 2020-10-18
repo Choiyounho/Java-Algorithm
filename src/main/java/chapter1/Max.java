@@ -5,8 +5,15 @@ import java.util.Scanner;
 
 public class Max {
 
-    // 연습문제 1. 숫자 4개 중 최댓값을 구하는 메서드를 구현하시오.
+    // 응용
+    private static final Scanner scanner = new Scanner(System.in);
 
+    public static void main(String[] args) {
+        maxNum();
+        scanner.close();
+    }
+
+    // 연습문제 1. 숫자 4개 중 최댓값을 구하는 메서드를 구현하시오.
     // 기존 예제
     public static int max4(int a, int b, int c, int d) {
         int max = a;
@@ -20,15 +27,6 @@ public class Max {
             max = d;
         }
         return max;
-    }
-
-    // 응용
-    private static final Scanner scanner = new Scanner(System.in);
-
-    public static void main(String[] args) {
-        maxNum();
-
-        scanner.close();
     }
 
     public static void maxNum() {
@@ -58,7 +56,7 @@ public class Max {
         return new int[count];
     }
 
-    private static int calculateMax(int[] count) {
+    public static int calculateMax(int[] count) {
         return Arrays.stream(count)
                 .max()
                 .getAsInt();
