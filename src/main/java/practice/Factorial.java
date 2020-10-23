@@ -1,10 +1,8 @@
 package practice;
 
-import java.util.Scanner;
+import static utils.CommonsConstant.*;
 
 public class Factorial {
-
-    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws InterruptedException {
         int fac = 1;

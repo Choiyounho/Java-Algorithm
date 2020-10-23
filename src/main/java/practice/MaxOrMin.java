@@ -3,11 +3,9 @@ package practice;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Scanner;
+import static utils.CommonsConstant.*;
 
 public class MaxOrMin {
-
-    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] arg) {
         System.out.println("1 입력시 최댓값을 , 2 입력시 최솟값을 구합니다.");

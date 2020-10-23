@@ -1,12 +1,11 @@
 package chapter1;
 
 import java.util.Arrays;
-import java.util.Scanner;
+import static utils.CommonsConstant.*;
 
 public class Max {
 
     // 응용
-    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         maxNum();

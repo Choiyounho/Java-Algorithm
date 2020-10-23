@@ -2,10 +2,10 @@ package chapter3;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import static utils.CommonsConstant.*;
 
 public class Search{
 
-    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 

@@ -1,10 +1,8 @@
 package chapter5;
 
-import java.util.Scanner;
+import static utils.CommonsConstant.*;
 
 public class DirectRecursive {
-
-    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         // 직접 재귀
