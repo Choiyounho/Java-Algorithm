@@ -1,8 +1,8 @@
 package chapter3;
 
 import java.util.Arrays;
-import java.util.Scanner;
-import static utils.CommonsConstant.*;
+
+import static utils.CommonsConstant.scanner;
 
 public class Search{
 

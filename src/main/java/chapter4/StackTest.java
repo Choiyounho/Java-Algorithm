@@ -5,14 +5,7 @@ import java.util.Stack;
 public class StackTest {
 
     public static void main(String[] args) {
-        Stack<Integer> integerStack = new Stack<>(); // 스택 생성
-
-        integerStack.push(3);  // 스택 값 대입
-        integerStack.push(4);
-        integerStack.push(5);
-        integerStack.push(6);
-        integerStack.push(7);
-        integerStack.push(8);
+        Stack<Integer> integerStack = init();
 
         System.out.println(integerStack.capacity()); // 스택에 할당되는 용량
         System.out.println(integerStack.size()); // 현재 스택에 적재되어 있는 데이터의 개수
@@ -25,5 +18,17 @@ public class StackTest {
         System.out.println(integerStack);
 
 
+    }
+
+    public static Stack<Integer> init() {
+        Stack<Integer> integerStack = new Stack<>(); // 스택 생성
+
+        integerStack.push(3);  // 스택 값 대입
+        integerStack.push(4);
+        integerStack.push(5);
+        integerStack.push(6);
+        integerStack.push(7);
+        integerStack.push(8);
+        return integerStack;
     }
 }

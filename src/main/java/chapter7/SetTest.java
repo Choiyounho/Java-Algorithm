@@ -24,6 +24,11 @@ public class SetTest {
         comparison.add(18);
 
         // 같은 요소가 있을 경우 새로운 집합에 추가
+        List sameList = sameFactor(normalList, comparison);
+        System.out.println(sameList);
+    }
+
+    public static List<Integer> sameFactor(List<Integer> normalList, List<Integer> comparison) {
         List<Integer> sameList = new ArrayList<>();
         for (int i = 0; i < normalList.size(); i++) {
             for (int j = 0; j < comparison.size(); j++) {
@@ -32,7 +37,7 @@ public class SetTest {
                 }
             }
         }
-        System.out.println(sameList);
+        return sameList;
     }
 
 }

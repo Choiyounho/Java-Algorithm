@@ -8,16 +8,26 @@ public class Sort{
 
         int[] sample = {9, 1, 3, 4, 6, 7, 8};
 
-        Arrays.sort(sample);
+        ascendingOrderArr(sample);
 
         System.out.println(Arrays.toString(sample));
         System.out.println();
 
         Integer[] sample2 = {9, 1, 3, 4, 6, 7, 8};
 
-        Arrays.sort(sample2, Collections.reverseOrder());
+        descendingOrderArr(sample2);
 
         System.out.println(Arrays.toString(sample2));
+    }
+
+    public static int[] ascendingOrderArr(int[] arr) {
+        Arrays.sort(arr);
+        return arr;
+    }
+
+    public static Integer[] descendingOrderArr(Integer[] arr) {
+        Arrays.sort(arr, Collections.reverseOrder());
+        return arr;
     }
 
 }
